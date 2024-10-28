@@ -22,3 +22,6 @@ let altura = parseInt(prompt
         } else {
             clasificacion = "obesidad clase 3"
         }        
+
+        alert("Tu IMC es:" + " " + " " + imc.toFixed(2)+" ")
+alert("Clasificación:" + " " + clasificacion);
